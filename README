@@ -1,0 +1,34 @@
+## Article Management System
+
+# Overview:
+This project is python- based Object-Oriented Programming system made to manage articles, authors and magazines. It demonstrates the use of relationships between classes and implements various methods to showcase agrregation and association.
+
+# Features:
+1. Author Class:
+Represents authors with a name and keeps track of their articles.
+Methods include adding articles, listing magazines they've written for, and identifying unique topic areas.
+
+2. Magazine Class:
+Represents magazines with a name and category.
+Keeps track of articles and contributors, and identifies contributing authors with more than 2 articles.
+
+3. Article Class:
+Represents an article with a title, author, and magazine.
+Automatically updates relationships between authors and magazines when an article is created.
+
+# GitHub Repository
+View the Project on GitHub:
+https://github.com/learn-co-curriculum/python-non-sqlalchemy-code-challenge-articles.git
+
+# How to Navigate the Project
+Clone this repository:
+git clone: git@github.com:learn-co-curriculum/python-non-sqlalchemy-code-challenge-articles.git
+Navigate into the project folder:
+cd python-non-sqlalchemy-code-challenge-articles.git
+Open the code in your favorite IDE or text editor to explore the classes and methods.
+# What I Learned
+1. Implementing relationships between objects using Python classes.
+2. Writing clean, reusable code that adheres to DRY principles.
+3. Using aggregate methods to extract meaningful data from relationships.
+
+
